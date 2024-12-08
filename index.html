@@ -1,0 +1,29 @@
+<!--maximelabille-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Mission 9</title>
+</head>
+<body>
+    <h2 class="title">Mission 9ﾠ</h2>
+    <div class="qcm">
+        <!-- Les questions du qcm generer par le script, un template comme base a copier, toute les question sont afficher en meme temps -->
+        <div class="question question-template">
+            <p class="question-titre">Question titre</p>
+            <div class="resultats">
+            </div>
+        </div>
+    </div>
+    <div class="container-btns">
+        <!-- pour afficher le score et les bouttons, uniquement activer les bouttons correction si le qcm a ete fini -->
+        <p class="score"></p>
+        <button id="correction" disabled>Correction</button>
+        <button id="corrige" disabled>Corrigé</button>
+        <button id="effacer">Effacer</button>
+    </div>
+</body>
+</html>
